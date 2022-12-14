@@ -1,10 +1,10 @@
-import { AddTaskBtn } from "../src/components/AddTaskBtn";
+import { AppContainer } from "./components/AppContainer";
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <AddTaskBtn />
+    <div className="app">
+      <AppContainer />
     </div>
   );
 }
